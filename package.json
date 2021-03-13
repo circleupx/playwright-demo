@@ -1,0 +1,27 @@
+{
+  "name": "e2eplaywright",
+  "version": "1.0.0",
+  "description": "Sample playwright repository",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha -r ts-node/register 'test/*.ts' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit"
+  },
+  "keywords": [
+    "playwright"
+  ],
+  "author": "yunier",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/faker": "^5.1.7",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.0",
+    "eslint": "^7.21.0",
+    "mocha": "^8.3.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "playwright": "^1.9.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}
