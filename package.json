@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sample playwright repository",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha -r ts-node/register 'test/*.ts' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit"
@@ -22,6 +23,7 @@
     "mocha-junit-reporter": "^2.0.0",
     "playwright": "^1.9.1",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.2",
+    "axe-core": "^4.1.3"
   }
 }
